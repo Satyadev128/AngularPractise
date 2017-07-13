@@ -1,0 +1,11 @@
+.navbar-default {
+  background-color: coral;
+  border-color: chocolate;
+}
+.navbar-default .navbar-brand {
+  color: #f3fcff;
+}
+
+.li{
+  color:floralwhite;
+}
