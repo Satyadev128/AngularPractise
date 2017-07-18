@@ -5,19 +5,3 @@ html,body
   height: 100%;
 }
 
-#cover
-{
-  background: url('/assets/images/LandingPage.jpg') center center no-repeat;
-  color: white;
-  height: 100%;
-  display:flex;
-  text-align: center;
-  align-items: center;
-}
-
-#cover-caption
-{
-  width: 100%;
-
-}
-

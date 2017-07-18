@@ -1,10 +1,14 @@
 
 
+.navbar-default {
+  background-color:transparent !important;
+  border-color:transparent;
+  background-image:none;
+  box-shadow:none;
+  font-family: Calibri;
+  font-size: 18px;
 
-.li{
-  color:floralwhite;
 }
-
 .navbar-brand {
   transform: translateX(-50%);
   left: 50%;
@@ -14,8 +18,48 @@
   margin: 0;
   padding: 0;
 }
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  background-color: transparent;
+  color: firebrick;
+  text-decoration: underline;
+
+}
 .navbar-brand img
 {
   max-height: 100%;
 }
+.navbar-default .navbar-nav > li.dropdown:hover > a,
+.navbar-default .navbar-nav > li.dropdown:hover > a:hover,
+.navbar-default .navbar-nav > li.dropdown:hover > a:focus {
+  background-color: transparent;
+}
+li.dropdown:hover > .dropdown-menu {
+  display: block;
+  background-color: transparent;
+  font-family: Calibri;
+  font-size: 16px;
 
+}
+
+.navbar-nav > li > a {
+  text-align: justify;
+  color: black;
+  font-style: italic;
+  position:relative;
+  font-size: 18px;
+}
+.dropdown-menu > li > a {
+  font-style: italic;
+  color:black;
+  font-size: 16px;
+
+
+}
+
+.dropdown-menu > li > a:hover {
+  color: firebrick;
+  text-decoration: underline;
+
+}
